@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  background: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-container {
+  border: 1px solid black;
+  width: 15rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+img {
+  width: 80%;
+}
+
+.username{
+  color: white
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
